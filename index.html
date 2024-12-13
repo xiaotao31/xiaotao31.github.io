@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>任务控制</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="task-panel">
+            <h2>任务控制面板</h2>
+            <div class="input-group">
+                <input type="tel" id="targetPhone" placeholder="请输入目标手机号码" required>
+            </div>
+            <div class="input-group">
+                <input type="number" id="duration" placeholder="执行时间（分钟）" required>
+            </div>
+            <div class="control-buttons">
+                <button id="startBtn" class="action-btn">开始</button>
+                <button id="stopBtn" class="action-btn">停止</button>
+            </div>
+            <div id="status" class="status">状态：未开始</div>
+        </div>
+    </div>
+</body>
+</html> 
